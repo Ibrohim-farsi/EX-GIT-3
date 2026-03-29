@@ -10,7 +10,7 @@
 
 <body>
     <section class="">
-        <header class="px-10 py-2 hidden lg:flex">
+        <header class="px-10 py-2 hidden lg:block">
             <div class=" ">
                 <div class="flex items-center justify-between ">
                     <img src="../muhammad.img/logo.svg" alt="" class="">
@@ -26,18 +26,19 @@
                     <div class="flex items-center gap-4">
                         <button class="bg-[#00C6BF] rounded-xl  px-3 py-2 "><img src="../muhammad.img/zoom-search.png"
                                 alt="" class=""></button>
-                        <button class="border-hidden px-7 py-2 text-[#00578A] bg-[#E3EFF5] rounded-xl">Личный
+                        <button
+                            class="border-hidden px-7 py-2 text-[#00578A] bg-[#E3EFF5] rounded-xl hover:bg-[#00578A] hover:text-[#E3EFF5] ">Личный
                             кабинет</button>
                     </div>
                 </div>
             </div>
             <div class="flex justify-between items-center">
                 <div class="flex gap-10">
-                    <a href="" class="hover:text-[#00578A]">Page 1</a>
-                    <a href="" class="hover:text-[#00578A]">Page 2</a>
-                    <a href="" class="hover:text-[#00578A]">Page 3</a>
-                    <a href="" class="hover:text-[#00578A]">Page 4</a>
-                    <a href="" class="hover:text-[#00578A]">Page 5</a>
+                    <a href="" class="hover:text-[#00578A] hover:relative bottom-1">Page 1</a>
+                    <a href="" class="hover:text-[#00578A] hover:relative bottom-1">Page 2</a>
+                    <a href="" class="hover:text-[#00578A] hover:relative bottom-1">Page 3</a>
+                    <a href="" class="hover:text-[#00578A] hover:relative bottom-1">Page 4</a>
+                    <a href="" class="hover:text-[#00578A] hover:relative bottom-1">Page 5</a>
                 </div>
                 <select class="outline-none">
                     <option>О центре</option>
@@ -49,7 +50,9 @@
                         <img src="../muhammad.img/icon (1).png" alt="" class="">
                         <p class="">Версия для слабовидящих</p>
                     </div>
-                    <button class="border-hidden px-7 pb-2 py-2 bg-[#00578A] text-[#E3EFF5] rounded-xl">Запись на
+                    <button
+                        class="border-hidden px-7 pb-2 py-2 bg-[#00578A] text-[#E3EFF5] rounded-xl hover:text-[#00578A] hover:bg-[#E3EFF5]">Запись
+                        на
                         приём</button>
                 </div>
             </div>
@@ -62,10 +65,331 @@
                 <img src="../muhammad.img/call.png" alt="" class="">
                 <p class="">Меню</p>
                 <img src="../muhammad.img/burger.png" alt="" class="">
-
             </div>
         </div>
-        
+        <section class="">
+            <div class="bg-linear-to-r/oklch from-indigo-500 to-teal-400 lg:px-20 px-5 lg:flex justify-between h-auto">
+                <div class="text-white lg:w-[50%] w-full lg:mt-15 lg:mb-30 ">
+                    <h1 class="text-[30px] lg:text-[40px] font-semibold lg:mr-10">Позаботьтесь <br> o здоровье ребенка
+                    </h1>
+                    <p class="py-5 text-gray-300">Осуществляем комплексное медицинское обслуживание населения:
+                        консультации и амбулаторное лечение у специалистов всех направлений, медицинские обследования и
+                        диагностические процедуры.</p>
+                    <button
+                        class="px-10 py-2 bg-[#00C6BF] rounded-xl hover:text-[#00C6BF] hover:bg-[#E3EFF5] ">Записаться</button>
+                </div>
+                <div class="relative flex h-100">
+                    <img src="../muhammad.img/svg (1).png" alt="" class="lg:hidden block h-50 w-full relative top-40">
+                    <img src="../muhammad.img/svg.png" alt="" class="hidden lg:block">
+                    <img src="../muhammad.img/девушка с ребенком 1.png" alt=""
+                        class="absolute lg:h-115 h-100 left-12 lg:left-0">
+                </div>
+            </div>
+        </section>
+        <div class="lg:grid grid-cols-3 grid-rows-[280px] gap-5 justify-center lg:px-20 px-5 lg:relative bottom-10 z-2">
+            <div class="bg-gray-500 h-74 rounded-xl">
+
+                <div style="box-shadow: 0px 0px 20px rgb(222, 222, 222);"
+                    class="hover:relative bottom-5  p-5 rounded-xl bg-white">
+                    <h1 class="font-semibold">Направления</h1>
+                    <hr class="my-3">
+                    <p class=" text-gray-500">Акушерство</p>
+                    <p class="my-1 text-gray-500">Косметология</p>
+                    <p class=" text-gray-500">Хирургия</p>
+                    <p class="my-1 text-gray-500">Мануальная терапия</p>
+                    <p class=" text-gray-500">Психотерапия</p>
+                    <button
+                        class="border-hidden px-7 py-2 bg-[#00578A] text-[#E3EFF5] my-4 rounded-xl w-full hover:text-[#00578A] hover:bg-[#E3EFF5]">Все
+                        услуги</button>
+                </div>
+            </div>
+            <div class="bg-gray-500 h-74 rounded-xl my-5 lg:my-0">
+
+                <div style="box-shadow: 0px 0px 20px rgb(222, 222, 222);"
+                    class="hover:relative bottom-5  p-5 rounded-xl my-5 lg:my-0 bg-white">
+                    <h1 class="font-semibold">Диагностика</h1>
+                    <hr class="my-3 text-gray-500">
+                    <p class=" text-gray-500">МРТ</p>
+                    <p class="my-1 text-gray-500">КТ</p>
+                    <p class=" text-gray-500">УЗИ</p>
+                    <p class="my-1 text-gray-500">Рентген</p>
+                    <p class="">Гастроскопия</p>
+                    <button
+                        class="border-hidden px-7 py-2 bg-[#00578A] text-[#E3EFF5] my-4 rounded-xl w-full hover:text-[#00578A] hover:bg-[#E3EFF5]">Вся
+                        диагностика</button>
+                </div>
+            </div>
+            <div class="bg-gray-500 h-74 rounded-xl">
+
+                <div style="box-shadow: 0px 0px 20px rgb(222, 222, 222);"
+                    class="hover:relative bottom-5  p-5 rounded-xl bg-white">
+                    <h1 class=" font-semibold">Детство</h1>
+                    <hr class="my-3 text-gray-500">
+                    <p class=" text-gray-500">Педиатр</p>
+                    <p class="my-1 text-gray-500">Стоматолог</p>
+                    <p class=" text-gray-500">Дерматолог</p>
+                    <p class="my-1 text-gray-500">Офтальмолог</p>
+                    <p class="">Логопед</p>
+                    <button
+                        class="border-hidden px-7 py-2 bg-[#00578A] text-[#E3EFF5] my-4 rounded-xl w-full hover:text-[#00578A] hover:bg-[#E3EFF5]">Все
+                        врачи</button>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="lg:grid grid-cols-3 grid-rows-[370px] gap-5 justify-center lg:px-20 px-5 lg:relative bottom-10 z-2 mt-10">
+            <div class="p-5 rounded-xl bg-white">
+                <h1 class="font-semibold text-[#D092C6] ">Обратите внимание</h1>
+                <p class=" text-[#00578A] text-[30px] ">Приём детей <br> до 15 лет</p>
+                <p class="my-1 text-gray-500">осуществляется только в присутствии законных представителей ребенка:
+                </p>
+                <img src="../muhammad.img/Group 9326.png" alt="" class="">
+                <img src="../muhammad.img/Group 9327.png" alt="" class="">
+                <img src="../muhammad.img/Group 9328.png" alt="" class="">
+                <p class=" text-gray-500 mt-8">Основание:</p>
+                <h1 class="">ФЗ РФ №323 от 21.11.2011 г., ст. 20 часть 2</h1>
+            </div>
+            <div style="box-shadow: 0px 0px 20px rgb(222, 222, 222);"
+                class="col-span-2 / 4 p-5 rounded-xl my-5 lg:my-0 bg-white">
+                <p class=" text-gray-500">
+                    Если Вашего ребенка привели в клинику родственники (даже самые близкие) или
+                    знакомые, предварительно на сопровождающего необходимо оформить доверенность от имени одного из
+                    родителей. Без такой доверенности оказание медицинских услуг ребенку невозможно. Бланк
+                    доверенности
+                    можно скачать ниже.</p>
+                <button style="border:2 solid #00578A;"
+                    class=" px-7 lg:my-18 my-3 py-2 text-[#00578A] rounded-xl border-1 hover:bg-[#E3EFF5]">
+                    Скачать \/
+                </button>
+                <p class=" text-gray-500">| Бабушки, дедушки, братья, сестры, тети, дяди законными представителями
+                    ребенка не <br> | являются</p>
+            </div>
+        </div>
+        <section class="">
+            <div
+                class="bg-linear-to-r/oklch from-indigo-500 to-teal-400 lg:pl-40 px-5 lg:flex justify-center text-center lg:text-start">
+                <div class="text-white lg:w-[50%] w-full lg:mt-15 lg:mb-30  ">
+                    <h1 class="text-[30px] lg:text-[40px] font-semibold mb-10 lg:mr-10">Записаться на приём
+                    </h1>
+                    <div class="lg:flex gap-5">
+                        <select class="outline-hidden px-2 py-2 p-3 rounded-[5px] bg-white text-black  w-full lg:w-60">
+                            <option value="">Выберете направление </option>
+                        </select> <br class="block lg:hidden">
+                        <input
+                            class="my-5 lg:my-0 outline-hidden px-2 py-2 p-3 rounded-[5px] bg-white text-black  w-full lg:w-auto"
+                            placeholder="Ваше имя" type="search">
+                        <p class="pt-5 text-gray-300"></p>
+                    </div>
+                    <div class="lg:flex gap-5 lg:mt-5 mt-0 w-full lg:w-auto">
+                        <select
+                            class="my-5 lg:my-0 outline-hidden px-2 py-2 p-3 rounded-[5px] lg:w-60 bg-white text-black  w-full">
+                            <option value="">Выберете врача </option>
+                        </select> <br class="block lg:hidden">
+                        <input class="outline-hidden px-2 py-2 p-3 rounded-[5px] bg-white text-black  w-full lg:w-auto"
+                            placeholder="Ваш телефон" type="tel">
+                        <p class="py-5 text-gray-300"></p>
+                    </div>
+                </div>
+                <div class=" text-white lg:mt-20 my-3">
+                    <h1 class="text-[20px text-center]">Оставьте заявку и мы свяжемся <br> с вами в ближайшее время
+                    </h1>
+                    <button
+                        class="px-10 py-4 bg-[#00C6BF] rounded-xl hover:text-[#00C6BF] hover:bg-[#E3EFF5] my-5  w-full lg:w-auto">Оставить
+                        заявку</button> <br>
+                    <input id="a" type="checkbox">
+                    <label for="a">Отправляя заявку, вы соглашаетесь на нашу политику конфиденциальности</label>
+                </div>
+            </div>
+        </section>
+        <section class="lg:flex items-center lg:px-20  mt-10 justify-center px-5">
+            <div class="lg:w-[50%] w-full ">
+                <h1 class="font-semibold lg:text-[35px] text-[30px] py-4">Немного о нашем <br class="hidden lg:block">
+                    медицинском центре</h1>
+                <p class="">Многопрофильное амбулаторно-поликлиническое учреждение для детей и взрослых в городе
+                    Мытищи.
+                    Мы предоставляем платные медицинские услуги и занимаем лидирующие позиции среди медицинских
+                    учреждений города Мытищи. У нас ежегодно обслуживаются более 150000 пациентов.</p>
+            </div>
+            <div class="lg:w-[35%] w-full">
+                <img src="../muhammad.img/image (6).png" alt="" class="">
+            </div>
+        </section>
+        <section class=" grid lg:grid-cols-4 lg:grid-rows-[130px] grid-cols-2 grid-rows-2 lg:mx-40 p-5 bg-gray-100">
+            <div class="text-center lg:text-start">
+                <img src="../muhammad.img/cross.png" alt="" class="ml-[35%] lg:ml-0">
+                <p class="text-[30px] font-semibold text-[#00C6BF]"> >10</p>
+                <p class="">лет заботы о вашем <br> здоровье</p>
+            </div>
+            <div class="text-center lg:text-start">
+                <img src="../muhammad.img/cross.png" alt="" class="ml-[35%] lg:ml-0">
+                <p class="text-[30px] font-semibold text-[#00C6BF]"> >150</p>
+                <p class="">квалифицированных специалистов</p>
+            </div>
+            <div class="mt-10 lg:mt-0 text-center lg:text-start">
+                <img src="../muhammad.img/cross.png" alt="" class="ml-[35%] lg:ml-0">
+                <p class="text-[30px] font-semibold text-[#00C6BF]"> 3000</p>
+                <p class="">медицинских услуг по всем направлениям</p>
+            </div>
+            <div class="mt-10 lg:mt-0 text-center lg:text-start">
+                <img src="../muhammad.img/cross.png" alt="" class="ml-[35%] lg:ml-0">
+                <p class="text-[30px] font-semibold text-[#00C6BF]">День в день</p>
+                <p class="">прием врача любой специальности в </p>
+            </div>
+        </section>
+        <h1 class="text-[30px] lg:text-[40px] font-semibold lg:ml-10 mt-10">Популярные услуги</h1>
+
+        <div class="lg:grid grid-cols-4 grid-rows-[370px] gap-5 justify-center lg:px-10 px-5 mt-10 ">
+            <div class="bg-gray-500 lg:h-95 rounded-xl my-5">
+                <div style="box-shadow: 0px 0px 20px rgb(222, 222, 222);"
+                    class="lg:hover:relative bottom-5 rounded-xl bg-white">
+                    <img src="../muhammad.img/image (7).png" alt="" class="w-full">
+                    <div class="p-5">
+                        <p class="font-semibold">Магнитно-резонансная томография (МРТ)</p>
+                        <button
+                            class="border-hidden px-7 py-2 bg-[#00578A] text-[#E3EFF5] my-4 rounded-xl w-full hover:text-[#00578A] hover:bg-[#E3EFF5]">Записаться
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gray-500 lg:h-95 rounded-xl my-5">
+                <div style=" box-shadow: 0px 0px 20px rgb(222, 222, 222);"
+                    class="lg:hover:relative bottom-5  rounded-xl bg-white">
+                    <img src="../muhammad.img/image (8).png" alt="" class="w-full">
+                    <div class="p-5">
+                        <p class="font-semibold">Гастроскопия</p> <br>
+                        <button
+                            class="border-hidden px-7 py-2 bg-[#00578A] text-[#E3EFF5] my-4 rounded-xl w-full hover:text-[#00578A] hover:bg-[#E3EFF5]">Записаться
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gray-500 lg:h-95 rounded-xl my-5">
+                <div style="box-shadow: 0px 0px 20px rgb(222, 222, 222);"
+                    class="lg:hover:relative bottom-5  rounded-xl bg-white">
+                    <img src="../muhammad.img/image (9).png" alt="" class="w-full">
+                    <div class="p-5">
+                        <p class="font-semibold">Прием гинеколога</p><br>
+                        <button
+                            class="border-hidden px-7 py-2 bg-[#00578A] text-[#E3EFF5] my-4 rounded-xl w-full hover:text-[#00578A] hover:bg-[#E3EFF5]">Записаться
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gray-500 lg:h-95 rounded-xl my-5">
+                <div style="box-shadow: 0px 0px 20px rgb(222, 222, 222);"
+                    class="lg:hover:relative bottom-5  rounded-xl bg-white">
+                    <img src="../muhammad.img/image (10).png" alt="" class="w-full">
+                    <div class="p-5">
+                        <p class="font-semibold">Лабораторная <br> диагностика</p>
+
+                        <button
+                            class="border-hidden px-7 py-2 bg-[#00578A] text-[#E3EFF5] my-4 rounded-xl w-full hover:text-[#00578A] hover:bg-[#E3EFF5]">Записаться</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="text-[30px] lg:text-[40px] font-semibold lg:ml-40 mt-20">Акции</h1>
+        <section class="lg:flex gap-20 lg:px-10 px-5 mt-3 justify-center">
+            <div style="background-image: url(../muhammad.img/bg.png);
+background-position: 100% 100%;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+" class="w-auto h-auto lg:flex  ">
+                <div class="p-5">
+                    <button
+                        class="border-hidden px-7 py-2 bg-[#65EAE5] text-black my-4 rounded-xl hover:text-[#65EAE5] hover:bg-black">до
+                        30 сентября 2023</button>
+                    <div class="text-white">
+                        <h1 class="text-[40px] font-semibold">-20%</h1>
+                        <p class="text-[20px]">на биоревитацию <br> Hualuform</p>
+                    </div>
+                </div>
+                <img src="../muhammad.img/image (11).png" alt="" class="h-60  w-full lg:w-auto">
+            </div>
+            <div style="background-image: url(../muhammad.img/bg.png);
+background-position: 100% 100%;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+" class="w-auto h-auto lg:flex my-5 lg:my-0">
+                <div class="p-5">
+                    <button
+                        class="border-hidden px-7 py-2 bg-[#65EAE5] text-black my-4 rounded-xl hover:text-[#65EAE5] hover:bg-black">до
+                        30 сентября 2023</button>
+                    <div class="text-white">
+                        <h1 class="text-[40px] font-semibold">-20%</h1>
+                        <p class="text-[20px]">на биоревитацию <br> Hualuform</p>
+                    </div>
+                </div>
+                <img src="../muhammad.img/image (11).png" alt="" class="h-60 w-full lg:w-auto">
+            </div>
+        </section>
+
+        <div class="flex lg:px-20 px-10 justify-between items-center mt-10 ">
+                <h1 class="text-[30px] lg:text-[40px] font-semibold lg:ml-10 ">Врачи</h1>
+            <div class="items-center flex gap-5">
+                <button class="rounded-[50%] text-[#00578A] bg-gray-200 p-2 px-3 hover:bg-gray-600"><img src="../muhammad.img/svg (2).png"
+                        alt="" class=""></button>
+                <button class="rounded-[50%] bg-[#00578A] text-white p-2 px-3 hover:bg-gray-600"><img src="../muhammad.img/svg (2).png"
+                        alt="" class="rotate-176"></button>
+            </div>
+        </div>
+        <div class=" lg:grid grid-cols-4 grid-rows-[370px] gap-5 justify-center lg:px-10 px-5 mt-2 ">
+            <div class="bg-gray-500 lg:h-95 rounded-xl my-5">
+                <div style="box-shadow: 0px 0px 20px rgb(222, 222, 222);"
+                    class="lg:hover:relative bottom-5 rounded-xl bg-white">
+                    <img src="../muhammad.img/photo.png" alt="" class="w-full">
+                    <div class="p-5">
+                        <p class="font-semibold text-[#017cc1]">Крятов Андрей</p>
+                        <p class="">Главный врач, уролог, андролог</p>
+                        <button
+                        class="border-hidden px-7 py-2 bg-[#00578A] text-[#E3EFF5] my-4 rounded-xl w-full hover:text-[#00578A] hover:bg-[#E3EFF5]">Записаться
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-500 lg:h-95 rounded-xl my-5">
+            <div style=" box-shadow: 0px 0px 20px rgb(222, 222, 222);"
+            class="lg:hover:relative bottom-5  rounded-xl bg-white">
+            <img src="../muhammad.img/photo (1).png" alt="" class="w-full">
+            <div class="p-5">
+                        <p class="font-semibold text-[#017cc1]">Савина Наталья</p>
+                        <p class="">Врач-невролог</p>
+                        <button
+                            class="border-hidden px-7 py-2 bg-[#00578A] text-[#E3EFF5] my-4 rounded-xl w-full hover:text-[#00578A] hover:bg-[#E3EFF5]">Записаться
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gray-500 lg:h-95 rounded-xl my-5">
+                <div style="box-shadow: 0px 0px 20px rgb(222, 222, 222);"
+                    class="lg:hover:relative bottom-5  rounded-xl bg-white">
+                    <img src="../muhammad.img/photo (2).png" alt="" class="w-full">
+                    <div class="p-5">
+                        <p class="font-semibold text-[#017cc1]">Зотова Гюзяль</p>
+                        <p class="">Врач-терапевт</p>
+                        <button
+                            class="border-hidden px-7 py-2 bg-[#00578A] text-[#E3EFF5] my-4 rounded-xl w-full hover:text-[#00578A] hover:bg-[#E3EFF5]">Записаться
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gray-500 lg:h-95 rounded-xl my-5">
+                <div style="box-shadow: 0px 0px 20px rgb(222, 222, 222);"
+                    class="lg:hover:relative bottom-5  rounded-xl bg-white">
+                    <img src="../muhammad.img/photo (3).png" alt="" class="w-full">
+                    <div class="p-5">
+                        <p class="font-semibold text-[#017cc1]">Николаeва Оксана</p>
+                        <p class="">Врач-терапевт</p>
+                        <button
+                            class="border-hidden px-7 py-2 bg-[#00578A] text-[#E3EFF5] my-4 rounded-xl w-full hover:text-[#00578A] hover:bg-[#E3EFF5]">Записаться</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
     </section>
 </body>
 
